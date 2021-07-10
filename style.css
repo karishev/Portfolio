@@ -116,11 +116,15 @@ a{
         left: 0;
         width: 100%;
         background-color:hsl(250, 60%, 99%);
-        padding: 2rem 1.5rem 4rem;
+        padding: 1rem 0.5rem 1rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
     }
+    .scroll-header{
+        box-shadow: -1 0px 0px rgba(0, 0, 0, .15);
+    }
+    
 }
 
 .nav__icon{
@@ -539,7 +543,7 @@ a{
 
 /* Media Queries */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     .home__container {
         flex-direction: column;
@@ -582,10 +586,10 @@ a{
     }
 
     .portfolio {
-        padding-top: 12rem;
+        padding-top: 15rem;
     }
     .swiper-slide {
-        width: 150px;
+        width: 60%;
         height: 100%;
     }
     .words1 h1{
@@ -610,7 +614,7 @@ a{
     }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
     .about__buttons {
         width: 45%;
         justify-content: space-between;
