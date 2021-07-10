@@ -6,6 +6,15 @@
     margin: 0;
 }
 
+a {
+    color:  rgb(109, 106, 124); 
+    text-decoration: none;
+}
+
+a:hover {
+    color:  rgb(251, 251, 254);
+}
+
 html{
 	scroll-behavior: smooth;
 	overflow-x: hidden;
@@ -14,8 +23,8 @@ html{
 body{
 	margin: 0 0 3rem 0;
 	font-family: 'Poppins', sans-serif;
-	background-color: hsl(250, 60%, 99%);
-	color:  hsl(250, 8%, 45%);
+	background-color: rgb(251, 251, 254);
+	color:  rgb(109, 106, 124);
 }
 
 section {
@@ -304,12 +313,56 @@ a{
 	width: 50%;
 }
 
+/* ABOUT ME */
+
+.aboutme {
+    width: 100%;
+    height: 90vh;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.aboutme__img{
+    width: 45%;
+    border-radius: 15px;
+    justify-self: center;
+    align-self: right;
+
+}
+
+.aboutme__imgcon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aboutme__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutme__content {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 3rem;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.aboutmetext {
+    width: 45%;
+    margin-bottom: 1rem;
+}
+
 /*==================== BUTTONS ====================*/
 .button{
     display: inline-block;
     background-color: rgb(255, 157, 99);
     color: #FFF;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: .5rem;
     font-weight: 500;
 }
@@ -342,22 +395,11 @@ a{
     padding: .75rem 1rem;
 }
 
-/* .button--link{
-    padding: 0;
-    background-color: transparent;
-    color: rgb(110, 87, 224);
-}
-
-.button--link:hover{
-    background-color: transparent;
-    color: hsl(250, 57%, 53%);
-} */
-
 /* Portfolio */
 
-/* .portfolio {
-    height: 100vh;
-} */
+.portfolio {
+    height: 90vh;
+}
 
 .swiper-container {
 	width: 60%;
@@ -384,11 +426,11 @@ a{
 	align-items: center;
 }
 
-.assignment1:hover {
+.assignment:hover {
     background:rgb(255, 146, 83);
 }
 
-.assignment1 {
+.assignment {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -400,13 +442,13 @@ a{
     transition: all 1.5s ease;
 }
 
-#closeButton2{
+#closeButton{
 	overflow: hidden;
 	transition: all 1s ease;
 	position: absolute;
 	z-index: 2;
-	top: 5%;
-	right: 10%;
+	top: 3%;
+	right: 0%;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -433,31 +475,10 @@ a{
 
 .assignmentphoto {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     
-    padding-left: 5rem;
+    padding-left: 3rem;
 }
-/* .assignmentphoto {
-	cursor: none;
-    
-	--cursorX: 50vh;
-	--cursorY: 50vw;
-	transition: all 2s ease;
-}
-
-.assignmentphoto::before {
-	content: '';
-	position: fixed;
-    display: block;
-	width: 100%;
-	height: 100%;
-	background: radial-gradient(
-		circle 10vmax at var(--cursorX) var(--cursorY),
-		rgba(0,0,0,0) 0%,
-		rgba(0,0,0,.5) 80%,
-		rgba(0,0,0,.95) 100%
-	)
-} */
 
 .assignmentinfo {
     /* border: solid 1px black; */
@@ -473,9 +494,9 @@ a{
 
 .swiper-slide img {
 	display: block;
-	width: 100%;
+	/* width: 90%; */
 	height: 100%;
-	object-fit: cover;
+	/* object-fit: cover; */
 }
 
 :root {

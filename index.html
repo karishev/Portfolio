@@ -20,13 +20,8 @@
 			<div class="nav__menu" id="nav-menu">
 				<ul class="nav__list">
 					<li class="nav__item">
-						<a href="#about" class="nav__link">
+						<a href="#aboutme" class="nav__link">
 							<i class="uil uil-user nav__icon"></i> About
-						</a>
-					</li>
-					<li class="nav__item">
-						<a href="#skills" class="nav__link">
-							<i class="uil uil-file-alt nav__icon"></i> Skills
 						</a>
 					</li>
 					<li class="nav__item">
@@ -40,7 +35,6 @@
 						</a>
 					</li>
 				</ul>
-				<!-- <i class="uil uil-times nav__close" id="nav-close"></i> -->
 			</div>
 		</nav>
 	</header>
@@ -98,40 +92,184 @@
 			
 		</section>
 
-		<section class="aboutme">
+		<section class="aboutme" id="aboutme">
+			<h2 class="section__title">About me</h2>
+			<span class="section__subtitle"></span>
+			<div class="aboutme__content grid">
+				<div class="aboutme__imgcon">
+					<img class="aboutme__img" src="ph2.png">
+				</div>
+				<div class="aboutme__info">
+					<div>
+						<p class="aboutmetext"> I am 19 years old rising Sophomore at New York University Abu Dhabi, majoring in Computer Science and minoring in Interactive Media hopefully.</p>
+
+						<p class="aboutmetext"> I am from Astana, Kazakhstan. My interests lie in Machine Learning, Data Science and Web Development.</p>
+
+						<p class="aboutmetext"> I enjoy playing volleyball and chess. In my free time, I like to play video games or workout.</p>
+					</div>
+					<div class="about__buttons" style="margin-top: 2%; width: 45%; display: flex; flex-direction: row; justify-content: space-between;">
+						<a download="" href="#" class="button button--flex">
+							Download CV<i class="uil uil-download-alt button__icon"></i>
+						</a>
+						<a href="#contact" class="button button--flex">
+							Contact Me <i class="uil uil-message button__icon"></i>
+						</a>
+					</div>
+				</div>
+				
+			</div>
 			
 		</section>
 
 		<section class="portfolio" id="portfolio">
 			<h2 class="section__title">Portfolio</h2>
-			<span class="section__subtitle"></span>
+			<span class="section__subtitle">Basically Assignments</span>
 			<div class="swiper-container mySwiper grid">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<div class="assignment1">
-							<h1 class="words1"> hello</h1>
-							<div class="step2show assignmentphoto" style="display: none;">
-								30 MFF
+						<div class="assignment">
+							<div class="words1"> 
+								<h1>THE KIDNAPPER</h1>
+								<p>Have you ever been kidnapped by sociopath?</p>
+								<p>No? Boring life you live, here is the website.</p>
 							</div>
-							<div class="step2show assignmentinfo" style="display: none;" >
-								<h1>30MFF Website</h1>
-								<p>This website was made for the love of god</p>
+							
+							<div class="step1show assignmentphoto" style="display: none;">
+								<a target="_blank" href="karishev.github.io/escaperoom/">
+									<img src="kidnapper.png" width="80%">
+								</a>
 							</div>
-							<div class="step2show" id="closeButton2" style="display: none;" >
+							<div class="step1show assignmentinfo" style="display: none;" >
+								<h1>Escape Room</h1>
+								<p>This is an interactive sound project done for the class Communications Lab, Summer 2021. The website is a horror game that allows the user to escape or die in hands of a kidnapper by answering his questions. You can see the website by pressing the image.</p>
+								<p style="width: 90%;"><a target="_blank" href="https://github.com/karishev/EscapeRoom#escape-room"> You can find additional information pressing here</a></p>
+							</div>
+							<div class="step1show closeButton" id="closeButton" style="display: none;" >
 								<div class="line" style="transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0); top: 0px; left: 4px;"></div>
 								<div class="line" style="transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0); top: -1px; left: 3px;"></div>
 							</div>
 						</div>
-						
 					</div>
-					<div class="swiper-slide">Slide 2</div>
-					<div class="swiper-slide">Slide 3</div>
-					<div class="swiper-slide">Slide 4</div>
-					<div class="swiper-slide">Slide 5</div>
-					<div class="swiper-slide">Slide 6</div>
-					<div class="swiper-slide">Slide 7</div>
-					<div class="swiper-slide">Slide 8</div>
-					<div class="swiper-slide">Slide 9</div>
+					<div class="swiper-slide">
+						<div class="assignment">
+							<div class="words1"> 
+								<h1>TEST OF GOD</h1>
+								<p>4th wall break to help a student during exam?</p>
+								<p>Yes, and make it a web-comics</p>
+							</div>
+							
+							<div class="step2show assignmentphoto" style="display: none;">
+								<a target="_blank" href="https://vigilant-nightingale-8fa74d.netlify.app/">
+									<img src="testofgod.png" width="90%">
+								</a>
+							</div>
+							<div class="step2show assignmentinfo" style="display: none;" >
+								<h1>Test God</h1>
+								<p>This is an interactive web comic project done for the class Communications Lab, Summer 2021. This website is a fun, "breaking the 4th wall", kind of piece that allows the viewer to change the story with their action. You can see the website by pressing the image</p>
+								<p style="width: 90%;"><a target="_blank" href="https://github.com/karishev/Test-of-God#test-of-god"> You can find additional information pressing here</a></p>
+							</div>
+							<div class="step2show closeButton" id="closeButton" style="display: none;" >
+								<div class="line" style="transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0); top: 0px; left: 4px;"></div>
+								<div class="line" style="transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0); top: -1px; left: 3px;"></div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="assignment">
+							<div class="words1"> 
+								<h1>ARDUINO TILES</h1>
+								<p>Remember piano tiles on your phones?</p>
+								<p>Same, but on PC using Processing and Arduino</p>
+							</div>
+							
+							<div class="step2show assignmentphoto" style="display: none;">
+								<a target="_blank" href="https://youtube.com/">
+									<img src="arduino_tiles.png" width="80%">
+								</a>
+							</div>
+							<div class="step2show assignmentinfo" style="display: none;" >
+								<h1>Arduino Tiles</h1>
+								<p style="width: 90%;">This game was made in processing and uses Arduino controls to play the game. The main idea of the game is to press the tiles as they approach and play music. You can see the video gameplay by pressing the image.</p>
+								<p style="width: 90%;"><a target="_blank" href="https://github.com/karishev/introtoim/tree/main/final_project"> You can find additional information pressing here</a></p>
+							</div>
+							<div class="step2show closeButton" id="closeButton" style="display: none;" >
+								<div class="line" style="transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0); top: 0px; left: 4px;"></div>
+								<div class="line" style="transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0); top: -1px; left: 3px;"></div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="assignment">
+							<div class="words1"> 
+								<h1>FILMING A FILM</h1>
+								<p>Creating a movie in 30 minutes? Hard.</p>
+								<p>But making a website for it? Harder.</p>
+							</div>
+							
+							<div class="step2show assignmentphoto" style="display: none;">
+								<a target="_blank" href="https://karishev.github.io/30MFF/">
+									<img src="30mff.png" width="90%" height="100%">
+								</a>
+							</div>
+							<div class="step2show assignmentinfo" style="display: none;" >
+								<h1>Filming a Film</h1>
+								<p style="width: 90%;">This website was made specifically to present the movie we made in groups during class. We got 30 minutes to shoot and edit everything. You can see the website by pressing the image</p>
+								<p style="width: 90%;"><a target="_blank" href="https://github.com/karishev/30MFF#30mff"> You can find additional information pressing here</a></p>
+							</div>
+							<div class="step2show closeButton" id="closeButton" style="display: none;" >
+								<div class="line" style="transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0); top: 0px; left: 4px;"></div>
+								<div class="line" style="transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0); top: -1px; left: 3px;"></div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="assignment">
+							<div class="words1"> 
+								<h1>HOW TO SURVIVE ONLINE SCHOOL?</h1>
+								<p>If I knew, if I knew...</p>
+							</div>
+							
+							<div class="step2show assignmentphoto" style="display: none;">
+								<a target="_blank" href="https://karishev.github.io/HowToSurviveOnlineSchool/">
+									<img src="online_school.png" width="90%" height="100%">
+								</a>
+							</div>
+							<div class="step2show assignmentinfo" style="display: none;" >
+								<h1>Surviving Online School</h1>
+								<p>This is an interactive video project done for the class Communications Lab, Summer 2021. The website shows "how to survive online school" in three steps. You can see the website by pressing the image</p>
+								<p style="width: 90%;"><a target="_blank" href="https://github.com/karishev/HowToSurviveOnlineSchool#howtosurviveonlineschool"> You can find additional information pressing here</a></p>
+							</div>
+							<div class="step2show closeButton" id="closeButton" style="display: none;" >
+								<div class="line" style="transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0); top: 0px; left: 4px;"></div>
+								<div class="line" style="transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0); top: -1px; left: 3px;"></div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="assignment">
+							<div class="words1"> 
+								<h1>JUMPING DOODLER</h1>
+								<p>Remember doolde jump? Now on PC.</p>
+								<p>Don't know why the name sounds the same.</p>
+							</div>
+							
+							<div class="step2show assignmentphoto" style="display: none;">
+								<a target="_blank" href="https://youtube.com">
+									<img src="doodle.png" width="90%" height="100%">
+								</a>
+							</div>
+							<div class="step2show assignmentinfo" style="display: none;" >
+								<h1>Jumping Doodler</h1>
+								<p>Recreation of the popular game Doodle Jump on Processing. The game is about a character that jumps all the time and the user controls his X-trajectory and can shoot if needed. You can see the video gameplay by pressing the image.</p>
+								<p style="width: 90%;"><a target="_blank" href="https://github.com/karishev/introtoim/tree/main/midtermproject#midterm-project"> You can find additional information pressing here</a></p>
+							</div>
+							<div class="step2show closeButton" id="closeButton" style="display: none;" >
+								<div class="line" style="transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0); top: 0px; left: 4px;"></div>
+								<div class="line" style="transform: matrix(0.7071, -0.7071, 0.7071, 0.7071, 0, 0); top: -1px; left: 3px;"></div>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 				<div style="color: rgb(245, 122, 50);" class="swiper-button-next"></div>
 				<div style="color: rgb(245, 122, 50);" class="swiper-button-prev"></div>
@@ -141,7 +279,7 @@
 
 		<section class="contact" id="contact">
 			<h2 class="section__title">Contact Information</h2>
-			<span class="section__subtitle"></span>
+			<span class="section__subtitle">Reach me for cooperation</span>
 			<div class="contact__container grid">
 				<div>
 					<div class="contact__information">
